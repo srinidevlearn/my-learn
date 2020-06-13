@@ -1,0 +1,35 @@
+h1, h2 {
+  font-family: Lato;
+}
+
+.grid{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+border:5px double #b794f4;
+border-radius:50%;
+height: 250px;
+width: 250px;
+margin:05rem auto
+}
+.round{
+  background: #805ad5;
+  color: white !important;
+  text-align:center;
+  margin:auto;
+  padding:10px 12px;
+}
+
+.fa{
+border-radius:50%;
+color:#805ad5;
+padding:10px 12px;
+margin: auto;
+text-align: center;
+}
+
+.fa:hover{
+ cursor:pointer;
+}
+
+
+
